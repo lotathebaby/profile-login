@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main {
+    border-radius: 8px;
+    padding: 90px 0 0;
+    background-color: #fff;
+    width: 500px;
+    height: 93vh;
+    margin: 10px 0;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    transform: translate(0, -50%);
+}
+form {
+    text-align: center;
+}
+button {
+    width: 80%;
+    margin: 15px 0 20px;
+    font-size: 0.9em;
+    font-family: inherit;
+    line-height: 2.8em;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0.05px solid gray;
+    background-color: #fff;
+}
+button > img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+.para-one {
+    font-weight: bold;
+    font-size: 1.0em;
+    margin: 20px 0;
+}
+input {
+    width: 80%;
+    border: 1px solid gray;
+    height: 50px;
+    padding: 5px;
+    font-family: arial;
+    font-size: 1.0em;
+    color: gray;
+    font-weight: 400;
+    margin: 25px 0 15px;
+}
+.next-btn {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.para-two {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 25px 0 5px;
+}
+a {
+    font-family: arial;    
+    font-size: 0.85em;
+    margin-bottom: -35px;
+}
+@media screen and (min-width: 340px) and (max-width: 2530px) {
+  main {
+    width: 330px;
+    height: 70%;
+    padding: 40px 0 5px;
+  }
+  button {
+    width: 85%;
+    line-height: 2.3;
+    margin: 13px 0 5px;
+  }
+  input {
+    height: 35px;
+    margin: 13px 0;
+    font-size: 0.9em;
+  }
+/*   a {
+    margin-bottom: -50px; */
+  }
+}
