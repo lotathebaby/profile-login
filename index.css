@@ -74,7 +74,7 @@ a {
     font-size: 0.85em;
     margin-bottom: -35px;
 }
-@media screen and (min-width: 340px) and (max-width: 2530px) {
+@media screen and (min-width: 340px) and (max-width: 530px) {
   main {
     width: 330px;
     height: 70%;
